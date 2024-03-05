@@ -34,4 +34,7 @@ you can add more nodes by connecting it to peers of already running chain or sim
 - to add block `/add?nonce=<any-number>/data=<any-data>` (adds block then redirects to `/`)
 - to see connected peers `/nodes`
 
+
 **keep everything respecting json format**
+
+*note: ui is incomplete*
