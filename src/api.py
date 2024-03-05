@@ -31,11 +31,6 @@ def home():
 def current_chain():
     return instance.chain
 
-@app.get("/add")
-def mine(data:str):
-    instance.Mine(data)
-    return RedirectResponse(url='/')
-
 @app.get("/createwallet")
 def createwallet(data:str):
     try:
